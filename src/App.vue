@@ -154,13 +154,13 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: "App",
-  mounted() {
-    var autocomplete = new google.maps.places.Autocomplete(
-      document.getElementById("autocomplete")
-    );
-     autocomplete.setComponentRestrictions({ country: ["de"] }),
-}
+// export default {
+//   name: "App",
+//   mounted() {
+//     var autocomplete = new google.maps.places.Autocomplete(
+//       document.getElementById("autocomplete")
+//     );
+//      autocomplete.setComponentRestrictions({ country: ["de"] }),
+// }
 
 </script>
